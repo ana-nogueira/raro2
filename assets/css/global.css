@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  font-family: 'Satoshi', sans-serif;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p
+ {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  cursor:pointer;
+  border-radius: 38px;
+  transition: .3s;
+}
+
+.btn-light {
+  background: none;
+  border: solid 2px var(--cor-5);
+}
