@@ -28,12 +28,12 @@ img {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
 .btn {
-  padding: 12px 24px;
+  padding: 13px 26px;
   cursor:pointer;
   border-radius: 38px;
   transition: .3s;
@@ -42,4 +42,10 @@ img {
 .btn-light {
   background: none;
   border: solid 2px var(--cor-5);
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 90vw;
+  }
 }
