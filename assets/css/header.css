@@ -9,9 +9,8 @@
 
 .logo {
   margin-left: 10px;
-  width: 150px;
+  width: 120px;
 }
-
 
 .logo img {
   width: 100%;
@@ -28,14 +27,18 @@
   margin-left: 5px;
 }
 
-.nav-item a {
-  font-size: 1rem;
-}
 
 .nav-item button {
   color: var(--cor-5);
-  font-size: 1rem;
 }
+
+.nav-item button:hover {
+  border: solid 2px var(--cor-1);
+  color: var(--cor-1) !important;
+  transition: .3s;
+  font-weight:500 ;
+} 
+
 
 .burger-menu-btn,
 .close-menu-btn {
@@ -103,10 +106,15 @@
   color: var(--cor-7);
 }
 
-@media (max-width: 700px) {
+.mobile-nav-item a:hover,
+.nav-item a:hover {
+  color: var(--cor-1);
+  transition: .3s;
+}
 
+@media (max-width: 700px) {
   .logo {
-    width: 130px;
+    width: 110px;
   }
 
   .nav-list {
