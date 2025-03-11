@@ -44,6 +44,25 @@ img {
   border: solid 2px var(--cor-5);
 }
 
+.btn-arrow-blue {
+background-color: var(--cor-5);
+border: none;
+}
+
+.btn-arrow-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-arrow-content li {
+  display: flex;
+}
+.btn-arrow-blue:hover {
+  background-color: var(--cor-6);
+  transition: .3s;
+}
+
 @media (max-width: 500px) {
   .container {
     max-width: 90vw;
