@@ -23,14 +23,81 @@
 }
 
 .intro-title span {
-  font-family: 'Satoshi';
+  font-family:'Satoshi';
   font-weight: 500;
+}
+
+
+.intro-subtitle {
+  max-width: 60ch;
 }
 
 .intro-subtitle h4 {
 text-align: center;
 font-size: 1.25rem;
+line-height: 1.5;
 font-weight: 500;
 margin-bottom: 40px;
 }
 
+.intro-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+@media (max-width: 1024px) {
+  .intro-title {
+    font-size: 4rem;
+    line-height: .9;
+  }
+  .intro-subtitle h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro-title {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .intro-subtitle h4 {
+    font-size: .875rem;
+  }
+  .intro-btn button {
+    font-size: .8rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .intro-title {
+    font-size: 2.7rem;
+    letter-spacing: -3px;
+    line-height: 1.1;
+  }
+  .intro-subtitle {
+    font-size: .725rem;
+  }
+    .intro-btn button {
+    font-size: .7rem;
+    padding: 9px 18px;
+  }
+
+}
+
+@media (max-width:450px) {
+    .intro-title {
+    font-size: 2rem;
+    letter-spacing: -1px;
+  }
+  .intro-subtitle {
+    font-size: .625rem;
+  }
+    .intro-btn button {
+    font-size: .625rem;
+    padding: 8px 16px;
+  }
+}

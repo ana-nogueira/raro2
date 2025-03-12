@@ -44,6 +44,14 @@ img {
   border: solid 2px var(--cor-5);
 }
 
+
+.btn-light:hover {
+    border: solid 2px var(--cor-1);
+  color: var(--cor-1) !important;
+  transition: .3s;
+  font-weight:500 ;
+}
+
 .btn-arrow-blue {
 background-color: var(--cor-5);
 border: none;

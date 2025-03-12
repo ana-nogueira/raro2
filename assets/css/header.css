@@ -29,18 +29,6 @@
 }
 
 
-.nav-item button {
-  color: var(--cor-5);
-}
-
-.nav-item button:hover {
-  border: solid 2px var(--cor-1);
-  color: var(--cor-1) !important;
-  transition: .3s;
-  font-weight:500 ;
-} 
-
-
 .burger-menu-btn,
 .close-menu-btn {
   border: none;
