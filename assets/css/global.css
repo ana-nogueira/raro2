@@ -57,6 +57,11 @@ background-color: var(--cor-5);
 border: none;
 }
 
+.btn-arrow-white {
+  background-color: var(--cor-7);
+  border: none;
+}
+
 .btn-arrow-content {
   display: flex;
   align-items: center;
