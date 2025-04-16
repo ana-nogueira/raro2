@@ -71,10 +71,12 @@ border: none;
 .btn-arrow-content li {
   display: flex;
 }
-.btn-arrow-blue:hover {
+.btn-arrow-blue:hover,
+.btn-arrow-white:hover {
   background-color: var(--cor-6);
   transition: .3s;
 }
+
 
 @media (max-width: 500px) {
   .container {

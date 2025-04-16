@@ -15,3 +15,7 @@ closeBurgerMenu.addEventListener('click', closeMobileMenu);
 
 burgerMenuBtn.addEventListener ('click', openMobileMenu);
 
+
+/* CONTACT WINDDOW */
+
+

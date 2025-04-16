@@ -1,7 +1,7 @@
 .contact-window {
   position: fixed;
   right: 40px;
-  bottom: 20gigipx;
+  bottom: 20px;
   padding: 13.5px 15px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 9px;
@@ -15,3 +15,17 @@ display: flex;
 gap: 10px;
 }
 
+.contact-close,
+.contact-open {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 8px;
+  top: 4px;
+}
+.opened {
+  display: block;
+}
+.closed {
+  display: none;
+}
