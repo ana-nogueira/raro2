@@ -10,9 +10,19 @@
   align-items: center;
 }
 
-.contact-status {
+.contact-content {
 display: flex;
+align-items: center;
 gap: 10px;
+}
+
+.contact-status-text {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.contact-content .btn {
+  margin-left: 20px;
 }
 
 .contact-close,
@@ -28,4 +38,22 @@ gap: 10px;
 }
 .closed {
   display: none;
+}
+
+@media (max-width:600px) {
+  .contact-window {
+    width: 380px;
+    padding: 10px 13px;
+    right: 80px;
+    bottom: 15px;
+}
+  .contact-status-text {
+    font-size: .9rem;
+  }
+
+  .contact-window .btn-arrow-white {
+    font-size: .8rem;
+    padding: 9px 16px;
+    margin-left: 10px;
+}
 }
