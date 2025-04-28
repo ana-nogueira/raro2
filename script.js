@@ -33,3 +33,11 @@ contactWindowBtn.addEventListener('mouseover', () =>
 contactWindowBtn.addEventListener('mouseleave', () =>
   changeBtn('setablue', 'cor-5'),
 );
+
+// Contact window open and close
+
+const contactWindowOpened = document.querySelector('.contact-window-opened');
+const contactWindowClosed = document.querySelector('.contact-window-closed');
+
+const closeContactBtn = document.querySelector('.contact-close');
+const openContactBtn = document.querySelector('.contact-open');

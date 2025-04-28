@@ -84,9 +84,7 @@
   </section>
 
   <div class="contact-window">
-    <button class="contact-close">x</button>
-    <button class="contact-open closed">></button>
-    <div class="contact-content">
+    <div class="contact-window-opened">
       <div class="contact-status-img">
         <img src="./assets/img/rafa.svg" alt="">
       </div>
@@ -94,7 +92,6 @@
         <h4>Entre em contato</h4>
         <span>Disponibilidade</span>
       </div>
-
       <button class="btn btn-arrow-white">
         <ul class="btn-arrow-content">
           <li class="cor-5 btnText">VAMOS CONVERSAR</li>
@@ -103,10 +100,21 @@
           </li>
         </ul>
       </button>
+      <button class="contact-close active">x</button>
     </div>
 
+    <div class="contact-window-closed inactive">
+      <div class="online-icon">
+        <img src="./assets/img/rafa.svg" alt="">
+      </div>
+      <button class="contact-open inactive">></button>
+    </div>
+  </div>
 
-
+  <div class="raro-star container">
+    <div class="star-img">
+      <img src="./assets/img/star.png" alt="Star">
+    </div>
   </div>
 
   <script src="./script.js"></script>
