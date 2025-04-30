@@ -41,3 +41,16 @@ const contactWindowClosed = document.querySelector('.contact-window-closed');
 
 const closeContactBtn = document.querySelector('.contact-close');
 const openContactBtn = document.querySelector('.contact-open');
+
+function closeWindow() {
+  contactWindowClosed.classList.replace('inactive', 'active');
+  contactWindowOpened.classList.add('inactive');
+}
+
+function openWindow() {
+  contactWindowClosed.classList.replace('active', 'inactive');
+  contactWindowOpened.classList.remove('inactive');
+}
+
+openContactBtn.addEventListener('click', openWindow);
+closeContactBtn.addEventListener('click', closeWindow);

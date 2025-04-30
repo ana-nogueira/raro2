@@ -1,0 +1,44 @@
+.best-works-title {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.best-works-title h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.best-works-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr auto;
+
+}
+
+.item {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 20px;
+}
+.item-description {
+  display: flex;
+  width: 95%;
+  position: absolute;
+  justify-content: space-between;
+  padding: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: .8rem;
+  transition: 0.4s ease-in-out
+}
+
+.saviato {
+  grid-row: 1/3;
+}
+
+.pets {
+  grid-row: 2/-1;
+}
